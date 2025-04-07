@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgrammingTechnologies\\CalculatorApp\\CalculatorApp.Data\\CalculatorApp.Data.csproj": {}
+    "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgTech\\CalculatorApp\\CalculatorApp.Data\\CalculatorApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgrammingTechnologies\\CalculatorApp\\CalculatorApp.Data\\CalculatorApp.Data.csproj": {
+    "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgTech\\CalculatorApp\\CalculatorApp.Data\\CalculatorApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgrammingTechnologies\\CalculatorApp\\CalculatorApp.Data\\CalculatorApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgTech\\CalculatorApp\\CalculatorApp.Data\\CalculatorApp.Data.csproj",
         "projectName": "CalculatorApp.Data",
-        "projectPath": "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgrammingTechnologies\\CalculatorApp\\CalculatorApp.Data\\CalculatorApp.Data.csproj",
+        "projectPath": "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgTech\\CalculatorApp\\CalculatorApp.Data\\CalculatorApp.Data.csproj",
         "packagesPath": "C:\\Users\\MATEUSZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgrammingTechnologies\\CalculatorApp\\CalculatorApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\MATEUSZ\\OneDrive\\Dokumenty\\Studia\\ProgTech\\CalculatorApp\\CalculatorApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
