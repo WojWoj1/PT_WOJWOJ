@@ -45,7 +45,7 @@ namespace ShopSystemTest
             Assert.ThrowsException<KeyNotFoundException>(
                 () => repository.GetClientById(1));
             // non existing
-            Client client2 = new Client(3, "K", "M");
+            Client client2 = new Client(3, "Kamil", "L");
             Assert.ThrowsException<KeyNotFoundException>(
                 () => repository.DeleteClient(client2));
         }

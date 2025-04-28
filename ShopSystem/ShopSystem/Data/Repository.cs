@@ -12,11 +12,7 @@ namespace ShopSystem.Data
             this.dataContext = dataContext;
         }
 
-
-
-
         // --------------- Client -----------------  
-
         public void AddClient(Client client)
         {
             if (!NoSuchClientId(client.Id))
@@ -67,11 +63,7 @@ namespace ShopSystem.Data
             return !dataContext.clients.Exists(c => c.Id == id);
         }
 
-
-
-
         // --------------- Product -----------------  
-
         public void AddProduct(Product product)
         {
             if (!NoSuchProductId(product.Id))
@@ -116,12 +108,7 @@ namespace ShopSystem.Data
             return !dataContext.products.ContainsKey(id);
         }
 
-   
-
-
-
         // --------------- Event ---------------- 
-
         public void AddEvent(IEvent IEvent)
         {
             dataContext.events.Add(IEvent);
@@ -137,11 +124,7 @@ namespace ShopSystem.Data
             return dataContext.events;
         }
 
-
-
-
         // --------------- State ---------------  
-
         public void AddState(State state)
         {
             dataContext.states.Add(state);

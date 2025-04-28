@@ -24,7 +24,7 @@ namespace ShopSystemTest
         [TestMethod]
         public void AddClient()
         {
-            service.AddClient(3, "DummyName", "DummySurname");
+            service.AddClient(3, "Grzegorz", "Marcinkiewicz");
             Assert.AreEqual(service.GetAllClients().Count, 3);
         }
 
@@ -32,7 +32,7 @@ namespace ShopSystemTest
         public void AddClientRepeatedId()
         {
             Assert.ThrowsException<Exception>(
-                () => service.AddClient(2, "DummyName", "DummySurname"));
+                () => service.AddClient(2, "Aneta", "Kura"));
         }
 
         [TestMethod]
@@ -47,7 +47,7 @@ namespace ShopSystemTest
         [TestMethod]
         public void RemoveNonexistentClient()
         {
-            Client nonexistentClient = new Client(999, "DummyName", "DummySurname");
+            Client nonexistentClient = new Client(999, "Maciej", "Mucha");
             Assert.ThrowsException<KeyNotFoundException>(() =>
                service.DeleteClient(nonexistentClient));
 
