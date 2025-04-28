@@ -1,2 +1,8 @@
 .vs/
 LibraryApp/.vs
+LibraryApp/
+
+/ShopSystem/ShopSystem/bin/
+/ShopSystem/ShopSystem/obj/
+/ShopSystem/ShopSystemTest/bin/
+/ShopSystem/ShopSystemTest/obj/
